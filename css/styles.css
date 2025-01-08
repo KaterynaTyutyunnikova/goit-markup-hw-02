@@ -70,10 +70,12 @@ a {
   background: #4d5ae5;
   cursor: pointer;
 }
-.hero-btn:hover {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: #404bbf;
   color: #fff;
 }
+
 .features-title {
   font-weight: 500;
   font-size: 20px;
@@ -93,10 +95,11 @@ a {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-name {
   font-weight: 500;
@@ -119,13 +122,14 @@ a {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-item {
-  background-color: url("path_to_image");
+  background-color: #fff;
 }
 .portfolio-service {
   font-weight: 500;
